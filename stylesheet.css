@@ -165,9 +165,10 @@ name {
 }
 
 .profile-photo {
+  display: block;
   border: 1px solid #e3ded4;
-  border-radius: 8px;
-  box-shadow: 0 8px 22px rgba(38, 38, 38, 0.12);
+  border-radius: 10px;
+  box-shadow: 0 10px 26px rgba(38, 38, 38, 0.14);
 }
 
 .bio {
@@ -301,8 +302,8 @@ span.highlight {
 
   .profile-photo {
     display: block;
-    max-width: 210px !important;
-    margin: 0 auto 10px;
+    max-width: 280px !important;
+    margin: 0 auto 14px;
   }
 
   .one {
