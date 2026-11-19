@@ -317,3 +317,148 @@ span.highlight {
     margin: 0 auto;
   }
 }
+
+.life-body {
+  background: #fbfaf7;
+}
+
+.life-page {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.life-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e5dfd5;
+}
+
+.life-header {
+  padding: 42px 0 34px;
+}
+
+.life-kicker {
+  margin-bottom: 7px;
+  color: #a15d1f;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.life-header h1 {
+  margin: 0 0 8px;
+  color: #263b36;
+  font-size: 38px;
+  line-height: 1.16;
+}
+
+.life-deck {
+  max-width: 580px;
+  margin: 0;
+  color: #5d5d5d;
+  font-size: 16px;
+}
+
+.life-section {
+  margin-top: 20px;
+  padding: 24px 0 10px;
+  border-top: 1px solid #ded9d0;
+}
+
+.life-section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 17px;
+}
+
+.life-section-number {
+  color: #a15d1f;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.life-section-heading h2 {
+  margin: 0;
+  color: #263b36;
+  font-size: 23px;
+  line-height: 1.25;
+}
+
+.poster-rail {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 174px;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 0 2px 16px;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: #b8b2a8 #eeeae3;
+  scrollbar-width: thin;
+}
+
+.poster-card {
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.poster-frame {
+  display: grid;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid #e3ded4;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.poster-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.poster-empty {
+  background: #f0eee8;
+}
+
+.poster-card h3 {
+  min-height: 38px;
+  margin: 10px 0 0;
+  color: #303030;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.life-section-last {
+  padding-bottom: 4px;
+}
+
+.life-footer {
+  margin-top: 20px;
+  padding: 18px 0 4px;
+  border-top: 1px solid #e5dfd5;
+}
+
+@media (max-width: 640px) {
+  .life-header {
+    padding: 34px 0 28px;
+  }
+
+  .life-header h1 {
+    font-size: 32px;
+  }
+
+  .life-deck {
+    font-size: 15px;
+  }
+
+  .poster-rail {
+    grid-auto-columns: 145px;
+    gap: 14px;
+  }
+}
