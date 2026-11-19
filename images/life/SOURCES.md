@@ -23,3 +23,13 @@ Cover and poster images are stored locally so the page does not depend on remote
 | `musicals/notre-dame-de-paris.png` | [Ramdam: Notre-Dame de Paris](https://www.ramdam.com/NOTRE-DAME-DE-PARIS-LE-SPECTACLE-MUSICAL-EN-TOURNEE) |
 
 The cover displayed for *Story of Your Life* is from the collection *Stories of Your Life and Others*. The displayed *Mozart!* poster represents the song “Gold from the Stars.”
+
+## Personal photos
+
+The following photographs were provided by Wenge Rao and are used locally on the Life page:
+
+- `sports/`: climbing, gym, outdoor climbing, basketball, football, hiking, and scuba-diving photos.
+- `pets/`: three photos each of Yangyang and Lotso.
+- `odds/`: Beijing 2020 and San Francisco 2026 film photos, an Overwatch keepsake, and target-practice photo.
+
+No tennis photo was provided, so hiking and scuba diving are shown as additional activities instead.
